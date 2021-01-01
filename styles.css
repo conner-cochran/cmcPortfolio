@@ -1,0 +1,79 @@
+/* NAVBAR */
+.navbar{
+    background-color: white;
+    height: 7vh;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+.jumbotron{
+    background: url("./assets/splash.png") center bottom;
+    filter: drop-shadow(0px 0px 24px black);
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+/* ABOUT */
+#about{
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+    display: block;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.meat{
+    margin: 0px 50px 0px 50px;
+    word-spacing: 5px;
+}
+
+.darkMeat{
+    text-align: center;
+}
+
+/* PROJECTS */
+#projects{
+    background-image: url(./assets/splash.png);
+    filter: drop-shadow(0px 0px 24px black);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+    display: block;
+    background-size: cover;
+    height: 93vh;
+    align-items: center;
+}
+
+#proj{
+    height: 7vh;
+    background-color: white;
+}
+
+#smiles{
+    right: 50px;
+}
+
+.col-6{
+    left: 10px;
+}
+
+/* FOOTER */
+.return{
+    background-image: url(./assets/splash.png);
+    filter: drop-shadow(0px 0px 20px black);
+    position: absolute;
+    height: 50px;
+    width: 98.77vw;
+    text-align: center;
+}
